@@ -1,3 +1,89 @@
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-color: #2196f3;
+  --primary-background-color: #ffffff;
+  --second-background-color: #E5E5E5;
+  --team-background-color: #F5F4FA;
+  --footer-background-color: #2f303a;
+  --footer-mail-color:rgba(255, 255, 255, 0.6);
+}
+
 body {
-  background-color: tomato;
+  color: var(--primary-text-color);
+  background-color: var(--primary-background-color)
+  font-family: Roboto;
+}
+
+.logo {
+  color: var(--title-text-color);
+}
+
+.logo-biginer {
+  color: var(--accent-color);
+}
+
+.list,
+.feature-list,
+.team-list {
+  list-style: none;
+}
+
+/* site nav */
+.site-nav .link {
+  color: var(--title-text-color);
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent-color);
+}
+
+.contacts-nav .contact{
+  color: inherit;
+}
+.contacts-nav .contact:hover,
+.contacts-nav .contact:focus {
+  color: var(--accent-color);
+}
+
+
+/* герой */
+.hero {
+  background-color: var(--footer-background-color);
+}
+.hero-title {
+  color: var(--primary-background-color);
+}
+
+/* batton */
+button {
+  color: var(--primary-background-color);
+  background-color: var(--accent-color);
+}
+
+/* секции */
+.section-title {
+  color: var(--title-text-color);
+}
+
+/* секция особенностей */
+.feature-section {
+  background-color: var(--second-background-color);
+}
+.feature-list .title {
+  color: var(--title-text-color);
+  background-color: var(--second-background-color);
+}
+
+/* секция: чем занимаемся */
+.activity-section {
+  background-color: var(--second-background-color);
+}
+
+/* секция: команда */
+.team-section {
+  background-color: var(--team-background-color);
+}
+.team-list .title {
+  color: var(--title-text-color);
 }
