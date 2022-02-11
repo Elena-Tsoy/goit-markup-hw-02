@@ -144,6 +144,13 @@ body {
 }
 .team-list .title {
   color: var(--title-text-color);
+  font-weight: 500;
+}
+.team-list-text {
+  font-size: 16;
+  font-weight: 400;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
 }
 
 /* футер */
@@ -168,10 +175,18 @@ body {
 
 .address {
   color: var(--primary-background-color);
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
 }
 
 .footer-list .contact {
   text-decoration: none;
   color: var(--footer-mail-color);
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
 }
 /* стили для портфолио */
