@@ -175,7 +175,7 @@ body {
 
 .address {
   color: var(--primary-background-color);
-  font-weight: normal;
+  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -184,9 +184,57 @@ body {
 .footer-list .contact {
   text-decoration: none;
   color: var(--footer-mail-color);
-  font-weight: normal;
+  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
 }
+.footer-list .contact:hover,
+.footer-list .contact:focus {
+  color: var(--accent-color);
+}
+
 /* стили для портфолио */
+
+.portfolio {
+  background-color: var(--second-background-color);
+}
+
+.filter-button {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.63;
+  letter-spacing: 0.03em;
+  background-color: var(--team-background-color);
+}
+.filter-button:hover,
+.filter-button:focus {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.63;
+  letter-spacing: 0.03em;
+  background-color: var(--accent-color);
+}
+
+.filter-item {
+  color: var(--title-text-color);
+}
+.filter-item:hover,
+.filter-item:focus {
+  color: var(--primary-background-color);
+}
+
+.project-item-title {
+  color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.project-item-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+}
