@@ -19,7 +19,6 @@ body {
   color: var(--primary-text-color);
   background-color: var(--primary-background-color);
   font-family: var(--main-font);
-  font-style: normal;
 }
 
 /* шапка сайта */
@@ -79,6 +78,7 @@ body {
   background-color: var(--dark-background-color);
 }
 .hero-title {
+  text-transform: uppercase;
   color: var(--primary-background-color);
   font-size: 44px;
   font-weight: 900;
@@ -89,6 +89,7 @@ body {
 
 /* batton */
 .hero-button {
+  font-family: inherit;
   color: var(--primary-background-color);
   background-color: var(--accent-color);
   font-size: 16px;
@@ -114,10 +115,9 @@ body {
 }
 
 /* секция особенностей */
-.feature-section {
-  background-color: var(--second-background-color);
-}
+
 .feature-list .title {
+  text-transform: uppercase;
   color: var(--title-text-color);
   font-size: 14px;
   font-weight: 700;
@@ -134,9 +134,6 @@ body {
 }
 
 /* секция: чем занимаемся */
-.activity-section {
-  background-color: var(--second-background-color);
-}
 
 /* секция: команда */
 .team-section {
@@ -145,11 +142,14 @@ body {
 .team-list .title {
   color: var(--title-text-color);
   font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
 }
 .team-list-text {
-  font-size: 16;
+  font-size: 16px;
   font-weight: 400;
-  line-height: 1.17;
+  line-height: 1.19;
   letter-spacing: 0.03em;
 }
 
@@ -166,7 +166,6 @@ body {
   font-weight: 700;
   line-height: 1.19;
   letter-spacing: 0.03em;
-  text-align: left;
 }
 
 .logo-biginer {
@@ -185,7 +184,6 @@ body {
 .footer-list .contact {
   text-decoration: none;
   color: var(--footer-mail-color);
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -198,7 +196,7 @@ body {
 /* стили для портфолио */
 
 .portfolio {
-  background-color: var(--second-background-color);
+  font-family: inherit;
 }
 
 .filter-button {
